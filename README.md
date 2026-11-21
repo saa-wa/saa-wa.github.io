@@ -2,7 +2,7 @@
 
 Saa Wa? is a Dagaare-first rainfall onset advisory system for smallholder farmers in Ghana's Upper West Region. It is an AIMS AI Research Foundations capstone (Ghana Cohort) by Edina Galaa and Dr. Issahaku Fadilul-lah Yassaanah of UBIDS, Wa.
 
-**Live demo:** https://issakafadil.github.io/saa-wa/ (static build: pre-computed advisories for the 2024–2026 GMet seasons; run `app.py` for PDF upload and live AI generation).
+**Live demo:** https://saa-wa.github.io (static build: pre-computed advisories for the 2024–2026 GMet seasons; run `app.py` for PDF upload and live AI generation).
 
 The Ghana Meteorological Agency (GMet) publishes its Northern Ghana seasonal forecast as a long technical PDF in English. Saa Wa? turns the Upper West part of that forecast into a short planting advisory. The advisory is first checked against the forecast. It is then rendered in Dagaare and released only after two people approve it:
 - a MoFA extension officer, who approves the English text
@@ -50,7 +50,7 @@ Results are written to `results/`. If model downloads stall with "CAS Client Err
 ## Static demo (GitHub Pages)
 
 ```bash
-python build_static.py --repo https://github.com/Issakafadil/saa-wa   # regenerates site/ with the real pipeline
+python build_static.py --repo https://github.com/saa-wa/saa-wa.github.io   # regenerates site/ with the real pipeline
 ```
 
 Commit `site/`, then publish it to the `gh-pages` branch that GitHub Pages serves:
