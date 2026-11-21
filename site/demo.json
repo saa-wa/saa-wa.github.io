@@ -1,0 +1,583 @@
+{
+ "seasons": [
+  2026,
+  2025,
+  2024
+ ],
+ "results": {
+  "2024-rule": {
+   "key": "8ad5ad2fbf797d35",
+   "generator": "rule-based baseline",
+   "forecast": {
+    "season": 2024,
+    "rows": [
+     {
+      "name": "Rainfall onset",
+      "normal": "3rd week of April to 1st week of May",
+      "forecast": "4th week of April to 2nd week of May",
+      "category": "late"
+     },
+     {
+      "name": "Early dry spell",
+      "normal": "10 days",
+      "forecast": "10 to 11 days",
+      "category": "normal"
+     },
+     {
+      "name": "Late dry spell",
+      "normal": "15 days",
+      "forecast": "13 to 15 days",
+      "category": "normal"
+     },
+     {
+      "name": "End of rains",
+      "normal": "1st week of October to 4th week of October",
+      "forecast": "3rd week of October to 1st week of November",
+      "category": "late"
+     },
+     {
+      "name": "Season length",
+      "normal": "175 to 184 days",
+      "forecast": "180 to 191 days",
+      "category": ""
+     }
+    ],
+    "source": "gmet_2024_mjj_jja_jas_forecast.pdf",
+    "note": "Onset forecast column is misaligned in the PDF text layer; value confirmed by the position-based extractor (saawa/extract.py). JJA and JAS Upper West rows are misaligned and left blank."
+   },
+   "advisory": {
+    "season": 2024,
+    "onset_window": "4th week of April to 2nd week of May",
+    "onset_category": "late",
+    "early_dry_spell_days": "10 to 11",
+    "early_dry_spell_category": "normal",
+    "late_dry_spell_days": "13 to 15",
+    "late_dry_spell_category": "normal",
+    "cessation_window": "3rd week of October to 1st week of November",
+    "cessation_category": "late",
+    "crop_actions": {
+     "maize": "Maize suffers most in a dry spell, so sow it only after the rains are steady.",
+     "millet": "Millet copes with dry spells better than maize.",
+     "sorghum": "Sorghum copes with dry spells better than maize.",
+     "groundnut": "Use an early-maturing groundnut variety.",
+     "cowpea": "Use an early-maturing cowpea variety."
+    },
+    "message_en": "[Saa Wa? 2024] GMet expects the rains to start from the 4th week of April to the 2nd week of May, later than usual. A dry spell of 10 to 11 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 1st week of November. Wait for steady rains before sowing."
+   },
+   "raw_generation": "",
+   "guard": {
+    "passed": true,
+    "nfc": 1.0,
+    "missing": [],
+    "invented": []
+   },
+   "dagaare": {
+    "text": "[Saa Wa? 2024] GMet tɛgɛɛ la ka saa na piili la 4th bakyɛlloo April poɔ gaa tɔ 2nd bakyɛlloo May poɔ, e ŋmaa gaŋ lɛ naŋ maŋ e. Wuloo/yooroo naŋ e 10 gaa tɔ 11 bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ. Saa na baare la 3rd bakyɛlloo October poɔ gaa tɔ 1st bakyɛlloo November poɔ. Guuli ka saa sigi velaa ka fo wa kɔɔ.",
+    "status": "unverified draft: these Dagaare rows are not yet approved by a second speaker",
+    "missing": [
+     "template:dry",
+     "template:end",
+     "template:header",
+     "template:onset_late",
+     "template:range",
+     "template:wait",
+     "template:week",
+     "glossary:1st",
+     "glossary:2nd",
+     "glossary:3rd",
+     "glossary:4th",
+     "glossary:April",
+     "glossary:May",
+     "glossary:November",
+     "glossary:October"
+    ],
+    "numbers_ok": true,
+    "draft": true
+   },
+   "approvals": [],
+   "status": "Awaiting approval of the Dagaare templates and glossary, MoFA approval, Dagaare reviewer approval.",
+   "released": false
+  },
+  "2024-model": {
+   "key": "8ad5ad2fbf797d35",
+   "generator": "fine-tuned model (stage1-qwen2.5-1.5b-instruct)",
+   "forecast": {
+    "season": 2024,
+    "rows": [
+     {
+      "name": "Rainfall onset",
+      "normal": "3rd week of April to 1st week of May",
+      "forecast": "4th week of April to 2nd week of May",
+      "category": "late"
+     },
+     {
+      "name": "Early dry spell",
+      "normal": "10 days",
+      "forecast": "10 to 11 days",
+      "category": "normal"
+     },
+     {
+      "name": "Late dry spell",
+      "normal": "15 days",
+      "forecast": "13 to 15 days",
+      "category": "normal"
+     },
+     {
+      "name": "End of rains",
+      "normal": "1st week of October to 4th week of October",
+      "forecast": "3rd week of October to 1st week of November",
+      "category": "late"
+     },
+     {
+      "name": "Season length",
+      "normal": "175 to 184 days",
+      "forecast": "180 to 191 days",
+      "category": ""
+     }
+    ],
+    "source": "gmet_2024_mjj_jja_jas_forecast.pdf",
+    "note": "Onset forecast column is misaligned in the PDF text layer; value confirmed by the position-based extractor (saawa/extract.py). JJA and JAS Upper West rows are misaligned and left blank."
+   },
+   "advisory": {
+    "season": 2024,
+    "onset_window": "4th week of April to 2nd week of May",
+    "onset_category": "late",
+    "early_dry_spell_days": "10 to 11",
+    "early_dry_spell_category": "normal",
+    "late_dry_spell_days": "13 to 15",
+    "late_dry_spell_category": "normal",
+    "cessation_window": "3rd week of October to 1st week of November",
+    "cessation_category": "late",
+    "crop_actions": {
+     "maize": "Maize suffers most in a dry spell, so sow it only after the rains are steady.",
+     "millet": "Millet copes with dry spells better than maize.",
+     "sorghum": "Sorghum copes with dry spells better than maize.",
+     "groundnut": "Use an early-maturing groundnut variety.",
+     "cowpea": "Use an early-maturing cowpea variety."
+    },
+    "message_en": "[Saa Wa? 2024] GMet expects the rains to start from the 4th week of April to the 2nd week of May, later than usual. A dry spell of 10 to 11 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 1st week of November. Wait for steady rains before sowing."
+   },
+   "raw_generation": "{\n  \"season\": 2024,\n  \"onset_window\": \"4th week of April to 2nd week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"10 to 11\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"13 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 1st week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2024] GMet expects the rains to start from the 4th week of April to the 2nd week of May, later than usual. A dry spell of 10 to 11 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}",
+   "guard": {
+    "passed": true,
+    "nfc": 1.0,
+    "missing": [],
+    "invented": []
+   },
+   "dagaare": {
+    "text": "[Saa Wa? 2024] GMet tɛgɛɛ la ka saa na piili la 4th bakyɛlloo April poɔ gaa tɔ 2nd bakyɛlloo May poɔ, e ŋmaa gaŋ lɛ naŋ maŋ e. Wuloo/yooroo naŋ e 10 gaa tɔ 11 bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ. Saa na baare la 3rd bakyɛlloo October poɔ gaa tɔ 1st bakyɛlloo November poɔ. Guuli ka saa sigi velaa ka fo wa kɔɔ.",
+    "status": "unverified draft: these Dagaare rows are not yet approved by a second speaker",
+    "missing": [
+     "template:dry",
+     "template:end",
+     "template:header",
+     "template:onset_late",
+     "template:range",
+     "template:wait",
+     "template:week",
+     "glossary:1st",
+     "glossary:2nd",
+     "glossary:3rd",
+     "glossary:4th",
+     "glossary:April",
+     "glossary:May",
+     "glossary:November",
+     "glossary:October"
+    ],
+    "numbers_ok": true,
+    "draft": true
+   },
+   "approvals": [],
+   "status": "Awaiting approval of the Dagaare templates and glossary, MoFA approval, Dagaare reviewer approval.",
+   "released": false
+  },
+  "2025-rule": {
+   "key": "05b0fa1a9c456d87",
+   "generator": "rule-based baseline",
+   "forecast": {
+    "season": 2025,
+    "rows": [
+     {
+      "name": "Rainfall onset",
+      "normal": "3rd week of April to 1st week of May",
+      "forecast": "3rd week of April to 1st week of May",
+      "category": "normal"
+     },
+     {
+      "name": "Early dry spell",
+      "normal": "10 days",
+      "forecast": "7 to 10 days",
+      "category": "short"
+     },
+     {
+      "name": "Late dry spell",
+      "normal": "15 days",
+      "forecast": "9 to 18 days",
+      "category": "normal"
+     },
+     {
+      "name": "End of rains",
+      "normal": "1st week of October to 4th week of October",
+      "forecast": "4th week of October to 1st week of November",
+      "category": "late"
+     },
+     {
+      "name": "Season length",
+      "normal": "175 to 184 days",
+      "forecast": "180 to 205 days",
+      "category": ""
+     }
+    ],
+    "source": "gmet_2025_northern_forecast.pdf",
+    "note": "Rainfall total tables are misaligned for Upper West and left blank."
+   },
+   "advisory": {
+    "season": 2025,
+    "onset_window": "3rd week of April to 1st week of May",
+    "onset_category": "normal",
+    "early_dry_spell_days": "7 to 10",
+    "early_dry_spell_category": "short",
+    "late_dry_spell_days": "9 to 18",
+    "late_dry_spell_category": "normal",
+    "cessation_window": "4th week of October to 1st week of November",
+    "cessation_category": "late",
+    "crop_actions": {
+     "maize": "Maize suffers most in a dry spell, so sow it only after the rains are steady.",
+     "millet": "Millet copes with dry spells better than maize.",
+     "sorghum": "Sorghum copes with dry spells better than maize.",
+     "groundnut": "Use an early-maturing groundnut variety.",
+     "cowpea": "Use an early-maturing cowpea variety."
+    },
+    "message_en": "[Saa Wa? 2025] GMet expects the rains to start from the 3rd week of April to the 1st week of May. A dry spell of 7 to 10 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing. Ask your extension officer."
+   },
+   "raw_generation": "",
+   "guard": {
+    "passed": true,
+    "nfc": 1.0,
+    "missing": [],
+    "invented": []
+   },
+   "dagaare": {
+    "text": "[Saa Wa? 2025] GMet tɛgɛɛ la ka saa na piili la 3rd bakyɛlloo April poɔ gaa tɔ 1st bakyɛlloo May poɔ. Wuloo/yooroo naŋ e 7 gaa tɔ 10 bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ. Saa na baare la 4th bakyɛlloo October poɔ gaa tɔ 1st bakyɛlloo November poɔ. Guuli ka saa sigi velaa ka fo wa kɔɔ. Bɔɔ fo karema/wuliraa naŋ kaa toma.",
+    "status": "unverified draft: these Dagaare rows are not yet approved by a second speaker",
+    "missing": [
+     "template:ask",
+     "template:dry",
+     "template:end",
+     "template:header",
+     "template:onset",
+     "template:range",
+     "template:wait",
+     "template:week",
+     "glossary:1st",
+     "glossary:3rd",
+     "glossary:4th",
+     "glossary:April",
+     "glossary:May",
+     "glossary:November",
+     "glossary:October"
+    ],
+    "numbers_ok": true,
+    "draft": true
+   },
+   "approvals": [],
+   "status": "Awaiting approval of the Dagaare templates and glossary, MoFA approval, Dagaare reviewer approval.",
+   "released": false
+  },
+  "2025-model": {
+   "key": "c931578b4ac02a8b",
+   "generator": "fine-tuned model (stage1-qwen2.5-1.5b-instruct)",
+   "forecast": {
+    "season": 2025,
+    "rows": [
+     {
+      "name": "Rainfall onset",
+      "normal": "3rd week of April to 1st week of May",
+      "forecast": "3rd week of April to 1st week of May",
+      "category": "normal"
+     },
+     {
+      "name": "Early dry spell",
+      "normal": "10 days",
+      "forecast": "7 to 10 days",
+      "category": "short"
+     },
+     {
+      "name": "Late dry spell",
+      "normal": "15 days",
+      "forecast": "9 to 18 days",
+      "category": "normal"
+     },
+     {
+      "name": "End of rains",
+      "normal": "1st week of October to 4th week of October",
+      "forecast": "4th week of October to 1st week of November",
+      "category": "late"
+     },
+     {
+      "name": "Season length",
+      "normal": "175 to 184 days",
+      "forecast": "180 to 205 days",
+      "category": ""
+     }
+    ],
+    "source": "gmet_2025_northern_forecast.pdf",
+    "note": "Rainfall total tables are misaligned for Upper West and left blank."
+   },
+   "advisory": {
+    "season": 2025,
+    "onset_window": "3rd week of April to 1st week of May",
+    "onset_category": "normal",
+    "early_dry_spell_days": "7 to 10",
+    "early_dry_spell_category": "normal",
+    "late_dry_spell_days": "9 to 18",
+    "late_dry_spell_category": "normal",
+    "cessation_window": "4th week of October to 1st week of November",
+    "cessation_category": "late",
+    "crop_actions": {
+     "maize": "Maize suffers most in a dry spell, so sow it only after the rains are steady.",
+     "millet": "Millet copes with dry spells better than maize.",
+     "sorghum": "Sorghum copes with dry spells better than maize.",
+     "groundnut": "Use an early-maturing groundnut variety.",
+     "cowpea": "Use an early-maturing cowpea variety."
+    },
+    "message_en": "[Saa Wa? 2025] GMet expects the rains to start from the 3rd week of April to the 1st week of May. A dry spell of 7 to 10 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing."
+   },
+   "raw_generation": "{\n  \"season\": 2025,\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"7 to 10\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"9 to 18\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2025] GMet expects the rains to start from the 3rd week of April to the 1st week of May. A dry spell of 7 to 10 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}",
+   "guard": {
+    "passed": true,
+    "nfc": 1.0,
+    "missing": [],
+    "invented": []
+   },
+   "dagaare": {
+    "text": "[Saa Wa? 2025] GMet tɛgɛɛ la ka saa na piili la 3rd bakyɛlloo April poɔ gaa tɔ 1st bakyɛlloo May poɔ. Wuloo/yooroo naŋ e 7 gaa tɔ 10 bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ. Saa na baare la 4th bakyɛlloo October poɔ gaa tɔ 1st bakyɛlloo November poɔ. Guuli ka saa sigi velaa ka fo wa kɔɔ. Bɔɔ fo karema/wuliraa naŋ kaa toma.",
+    "status": "unverified draft: these Dagaare rows are not yet approved by a second speaker",
+    "missing": [
+     "template:ask",
+     "template:dry",
+     "template:end",
+     "template:header",
+     "template:onset",
+     "template:range",
+     "template:wait",
+     "template:week",
+     "glossary:1st",
+     "glossary:3rd",
+     "glossary:4th",
+     "glossary:April",
+     "glossary:May",
+     "glossary:November",
+     "glossary:October"
+    ],
+    "numbers_ok": true,
+    "draft": true
+   },
+   "approvals": [],
+   "status": "Awaiting approval of the Dagaare templates and glossary, MoFA approval, Dagaare reviewer approval.",
+   "released": false
+  },
+  "2026-rule": {
+   "key": "b1e8d732526c2826",
+   "generator": "rule-based baseline",
+   "forecast": {
+    "season": 2026,
+    "rows": [
+     {
+      "name": "Rainfall onset",
+      "normal": "3rd week of April to 1st week of May",
+      "forecast": "3rd week of April to 2nd week of May",
+      "category": "normal"
+     },
+     {
+      "name": "Early dry spell",
+      "normal": "10 days",
+      "forecast": "10 to 14 days",
+      "category": "long"
+     },
+     {
+      "name": "Late dry spell",
+      "normal": "15 days",
+      "forecast": "13 to 17 days",
+      "category": "normal"
+     },
+     {
+      "name": "End of rains",
+      "normal": "1st week of October to 4th week of October",
+      "forecast": "3rd week of October to 4th week of October",
+      "category": "late"
+     },
+     {
+      "name": "Season length",
+      "normal": "175 to 184 days",
+      "forecast": "183 to 192 days",
+      "category": ""
+     }
+    ],
+    "source": "gmet_2026_northern_forecast.pdf",
+    "note": "MJJ Upper West row is misaligned and left blank."
+   },
+   "advisory": {
+    "season": 2026,
+    "onset_window": "3rd week of April to 2nd week of May",
+    "onset_category": "normal",
+    "early_dry_spell_days": "10 to 14",
+    "early_dry_spell_category": "long",
+    "late_dry_spell_days": "13 to 17",
+    "late_dry_spell_category": "normal",
+    "cessation_window": "3rd week of October to 4th week of October",
+    "cessation_category": "late",
+    "crop_actions": {
+     "maize": "Maize suffers most in a dry spell, so sow it only after the rains are steady and choose an early-maturing variety.",
+     "millet": "Millet copes with dry spells better than maize, so it is a good choice this season.",
+     "sorghum": "Sorghum copes with dry spells better than maize, so it is a good choice this season.",
+     "groundnut": "Use an early-maturing groundnut variety.",
+     "cowpea": "Use an early-maturing cowpea variety."
+    },
+    "message_en": "[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 10 to 14 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Use early-maturing seed. Ask your extension officer."
+   },
+   "raw_generation": "",
+   "guard": {
+    "passed": true,
+    "nfc": 1.0,
+    "missing": [],
+    "invented": []
+   },
+   "dagaare": {
+    "text": "[Saa Wa? 2026] GMet tɛgɛɛ la ka saa na piili la 3rd bakyɛlloo April poɔ gaa tɔ 2nd bakyɛlloo May poɔ. Wuloo/yooroo naŋ e 10 gaa tɔ 14 bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ. Saa na baare la 3rd bakyɛlloo October poɔ gaa tɔ 4th bakyɛlloo October poɔ. De bondirii-biri naŋ wɛrɛ gɛrɛ. Bɔɔ fo karema/wuliraa naŋ kaa toma.",
+    "status": "unverified draft: these Dagaare rows are not yet approved by a second speaker",
+    "missing": [
+     "template:ask",
+     "template:dry",
+     "template:end",
+     "template:header",
+     "template:onset",
+     "template:range",
+     "template:seed",
+     "template:week",
+     "glossary:2nd",
+     "glossary:3rd",
+     "glossary:4th",
+     "glossary:April",
+     "glossary:May",
+     "glossary:October"
+    ],
+    "numbers_ok": true,
+    "draft": true
+   },
+   "approvals": [],
+   "status": "Awaiting approval of the Dagaare templates and glossary, MoFA approval, Dagaare reviewer approval.",
+   "released": false
+  },
+  "2026-model": {
+   "key": "01967d38b3d39e8d",
+   "generator": "fine-tuned model (stage1-qwen2.5-1.5b-instruct)",
+   "forecast": {
+    "season": 2026,
+    "rows": [
+     {
+      "name": "Rainfall onset",
+      "normal": "3rd week of April to 1st week of May",
+      "forecast": "3rd week of April to 2nd week of May",
+      "category": "normal"
+     },
+     {
+      "name": "Early dry spell",
+      "normal": "10 days",
+      "forecast": "10 to 14 days",
+      "category": "long"
+     },
+     {
+      "name": "Late dry spell",
+      "normal": "15 days",
+      "forecast": "13 to 17 days",
+      "category": "normal"
+     },
+     {
+      "name": "End of rains",
+      "normal": "1st week of October to 4th week of October",
+      "forecast": "3rd week of October to 4th week of October",
+      "category": "late"
+     },
+     {
+      "name": "Season length",
+      "normal": "175 to 184 days",
+      "forecast": "183 to 192 days",
+      "category": ""
+     }
+    ],
+    "source": "gmet_2026_northern_forecast.pdf",
+    "note": "MJJ Upper West row is misaligned and left blank."
+   },
+   "advisory": {
+    "season": 2026,
+    "onset_window": "3rd week of April to 2nd week of May",
+    "onset_category": "normal",
+    "early_dry_spell_days": "10 to 14",
+    "early_dry_spell_category": "normal",
+    "late_dry_spell_days": "13 to 17",
+    "late_dry_spell_category": "short",
+    "cessation_window": "3rd week of October to 4th week of October",
+    "cessation_category": "normal",
+    "crop_actions": {
+     "maize": "Maize suffers most in a dry spell, so sow it only after the rains are steady.",
+     "millet": "Millet copes with dry spells better than maize.",
+     "sorghum": "Sorghum copes with dry spells better than maize.",
+     "groundnut": "Use an early-maturing groundnut variety.",
+     "cowpea": "Use an early-maturing cowpea variety."
+    },
+    "message_en": "[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 10 to 14 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing."
+   },
+   "raw_generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"10 to 14\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"13 to 17\",\n  \"late_dry_spell_category\": \"short\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 10 to 14 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}",
+   "guard": {
+    "passed": true,
+    "nfc": 1.0,
+    "missing": [],
+    "invented": []
+   },
+   "dagaare": {
+    "text": "[Saa Wa? 2026] GMet tɛgɛɛ la ka saa na piili la 3rd bakyɛlloo April poɔ gaa tɔ 2nd bakyɛlloo May poɔ. Wuloo/yooroo naŋ e 10 gaa tɔ 14 bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ. Saa na baare la 3rd bakyɛlloo October poɔ gaa tɔ 4th bakyɛlloo October poɔ. De bondirii-biri naŋ wɛrɛ gɛrɛ. Bɔɔ fo karema/wuliraa naŋ kaa toma.",
+    "status": "unverified draft: these Dagaare rows are not yet approved by a second speaker",
+    "missing": [
+     "template:ask",
+     "template:dry",
+     "template:end",
+     "template:header",
+     "template:onset",
+     "template:range",
+     "template:seed",
+     "template:week",
+     "glossary:2nd",
+     "glossary:3rd",
+     "glossary:4th",
+     "glossary:April",
+     "glossary:May",
+     "glossary:October"
+    ],
+    "numbers_ok": true,
+    "draft": true
+   },
+   "approvals": [],
+   "status": "Awaiting approval of the Dagaare templates and glossary, MoFA approval, Dagaare reviewer approval.",
+   "released": false
+  }
+ },
+ "metrics": {
+  "Zero-shot": {
+   "n": 38,
+   "valid_json": 0.6578947368421053,
+   "mean_nfc": 0.3600877192982456,
+   "guard_pass_rate": 0.21052631578947367,
+   "sms_within_320": 0.05263157894736842,
+   "rougeL": 0.2022177120746409
+  },
+  "Fine-tuned": {
+   "n": 38,
+   "valid_json": 1,
+   "mean_nfc": 0.968421052631579,
+   "guard_pass_rate": 0.9210526315789473,
+   "sms_within_320": 1,
+   "rougeL": 0.9322104701178443
+  }
+ }
+}

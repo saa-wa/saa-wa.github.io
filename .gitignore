@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/review_log.jsonl
+
+# Models: only the final Stage 1 adapter is published, not training checkpoints or downloads
+models/*
+!models/stage1-qwen2.5-1.5b-instruct/
+models/stage1-qwen2.5-1.5b-instruct/checkpoints/
+results/log_*.txt

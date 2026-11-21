@@ -1,0 +1,424 @@
+{
+  "summary": {
+    "table": {
+      "n": 13,
+      "valid_json": 0,
+      "mean_nfc": 0.021978021978021976,
+      "guard_pass_rate": 0,
+      "sms_within_320": 0,
+      "rougeL": 0.19473629322566313
+    },
+    "all": {
+      "n": 38,
+      "valid_json": 0.6578947368421053,
+      "mean_nfc": 0.3600877192982456,
+      "guard_pass_rate": 0.21052631578947367,
+      "sms_within_320": 0.05263157894736842,
+      "rougeL": 0.2022177120746409
+    },
+    "narrative": {
+      "n": 13,
+      "valid_json": 1,
+      "mean_nfc": 0.8602564102564103,
+      "guard_pass_rate": 0.6153846153846154,
+      "sms_within_320": 0.15384615384615385,
+      "rougeL": 0.27168481603955896
+    },
+    "raw_pdf": {
+      "n": 12,
+      "valid_json": 1,
+      "mean_nfc": 0.1845238095238095,
+      "guard_pass_rate": 0,
+      "sms_within_320": 0,
+      "rougeL": 0.13506655319903893
+    }
+  },
+  "details": [
+    {
+      "style": "table",
+      "origin": "real",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.21132075471698114,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"3rd week of April to 2nd week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"10 to 14\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"13 to 17\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"3rd week of October to 4th week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In 2026, the Upper West region will experience a typical dry spell period from mid-April to mid-May. Monitor your crops during this time. The first dry spell is expected to last approximately 10-14 days, while the second can last up to 17 days. Cessation is anticipated around October, lasting about 4 weeks. Continue monitoring soil moisture and adjust planting schedules accordingly. For more detailed information, please consult your local agricultural extension officer.\"\n}\n```\n\nThis response includes all the required details from the forecast and provides specific advice tailored to Upper West farmers' needs."
+    },
+    {
+      "style": "narrative",
+      "origin": "real",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.15238095238095237,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10-14 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"13-17 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue regular planting practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good field management practices; look out for drought stress.\",\n    \"groundnut\": \"Assess pod maturity regularly; harvest when fully ripe.\",\n    \"cowpea\": \"Monitor for signs of drought stress; manage water efficiently.\"\n  },\n  \"message_en\": \"Early dry spells of 10-14 days are forecast in the Upper West. Monitor soil moisture closely and consider irrigation if needed. Continue regular farming practices for crops such as maize, millet, sorghum, and groundnuts. Assess cowpea maturity regularly and manage water efficiently.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for Upper West farmers based on the given conditions. The message is concise yet informative, ensuring it fits within the 320-character limit while providing useful guidance."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "real",
+      "valid_json": true,
+      "nfc": 0.3333333333333333,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.14173228346456693,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"2nd week of April to 2nd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 14\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"13 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 4th week of November\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry conditions persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry spells.\",\n    \"groundnut\": \"Monitor pod set and maturity; harvest when pods reach full size.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for disease outbreaks.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture levels closely and prepare for potential dry spells between May and October. Continue your farming practices while keeping an eye on pest and disease issues. For specific advice on crops, monitor pod set and maturity for groundnuts and continue sowings/transplanting for cowpeas. Stay tuned for further updates!\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for Upper West farmers based on the given data. The message is concise yet informative, ensuring it fits within the 320-character limit."
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.19277108433734938,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"2nd week of April - 4th week of April\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"8-13\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"10-17\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"4th week of October - 1st week of November\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In the upcoming season, expect moderate rainfall from mid-April through October. Monitor your crops for signs of drought stress. Maintain regular watering practices during dry spells. For more detailed information, consult local weather advisories and seek expert guidance.\"\n}\n```\n\nThis response provides a comprehensive forecast tailored to Upper West farmers' needs, including specific advice for different crops and a general message about monitoring their crops and seeking further assistance. The JSON structure accurately represents all provided details from the GMet seasonal forecast."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.6666666666666666,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.4201680672268907,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"1st week of April to 3rd week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10-17 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"12-19 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue monitoring crops; potential need for supplementary water or fertilizers.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand; prepare for harvest based on local conditions.\",\n    \"cowpea\": \"Monitor for pest infestations; ensure proper storage practices.\"\n  },\n  \"message_en\": \"Early dry spells may occur during the 1st week of April to the 3rd week of April. Monitor your crops regularly. Consider irrigation if necessary. Late dry spells will last from the 3rd week of October to the 4th week of October. Cessation is expected between these periods. Monitor soil moisture, manage pests, and adjust farming practices accordingly.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.12121212121212122,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 12\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15 to 18\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry spells persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry periods.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and water management.\",\n    \"cowpea\": \"Continue seedling care; monitor for disease and pest issues.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains around mid-April. Monitor soil moisture closely and prepare for potential dry spells between May and October. Continue regular farming practices but be prepared for prolonged dry conditions. Crop actions include monitoring soil moisture, maintaining good soil health, and managing pests and diseases. For more detailed information, please contact your local extension officer or consult the official agricultural advisory service.\"\n}\n```\n\nThis response adheres to the guidelines by providing a specific JSON structure with all required fields and accurately reflecting the GMet seasonal forecast provided. The message is tailored to address the needs of Upper West farmers, offering practical advice on crop management based on the forecasted weather patterns."
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.1779359430604982,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"1st week of May to 1st week of June\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"7-11\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"15-22\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"3rd week of October to 4th week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue regular planting and maintenance practices.\",\n      \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest or replant based on market demand and weather conditions.\",\n      \"cowpea\": \"Consider intercropping or relay cropping to manage drought stress.\"\n    },\n    \"message_en\": \"In the upcoming season, expect a prolonged period of moderate rainfall from mid-May through mid-June. Monitor your crops for signs of drought stress. Continue monitoring soil moisture levels and adjust your farming practices accordingly. For more detailed information, please consult local agricultural extension services.\"\n}\n```\n\nThis response provides a comprehensive summary of the GMet forecast for the Upper West region, including the expected duration of the growing season, the timing of the first and second dry spells, the length of the season, and specific advice for different crops. The message is designed to be concise yet informative, ensuring that farmers can make informed decisions about their farming activities during this critical time."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.8,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.36923076923076925,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"4th week of April to 3rd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10-13 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"10-12 days\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue regular planting practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and pest control.\",\n    \"cowpea\": \"Continue seedling care; monitor for disease and weed infestations.\"\n  },\n  \"message_en\": \"Early dry spells may occur during the 4th week of April to the 3rd week of May. Monitor soil moisture and prepare for potential water needs. Consider regular crop management practices such as pest control and disease prevention. Cessation period expected from the 2nd week of October to the 3rd week of October. Stay informed about local weather conditions and adjust your farming practices accordingly.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops based on the forecasted conditions. The message is concise yet informative, ensuring it fits within the 320-character limit while providing useful guidance to farmers."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.11267605633802817,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"<10\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \">10\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 4th week of September\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry spells persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry periods.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and water management.\",\n    \"cowpea\": \"Continue seedling care; monitor for disease and pest issues.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains around mid-April. Monitor soil moisture closely and consider irrigation if dry spells occur. Maize growers should continue regular planting practices while millet farmers should focus on pest and disease control. Sorghum producers should maintain soil health and avoid excessive tillage during dry periods. Groundnut farmers should monitor pod set and ensure proper fertilization and water management. Cowpea growers should continue seedling care and monitor for disease and pest issues.\"\n}\n```"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.17872340425531913,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": \"2026\",\n    \"onset_window\": \"3rd week of April - 1st week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"10 to 13\",\n    \"early_dry_spell_category\": \"short\",\n    \"late_dry_spell_days\": \"15 to 21\",\n    \"late_dry_spell_category\": \"long\",\n    \"cessation_window\": \"1st week of October - 4th week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for next planting cycle.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In the upcoming season, expect a longer growing period from mid-May to mid-October. Monitor your crops regularly and adjust your farming practices accordingly. Stay tuned for more detailed information about your specific needs.\"\n}\n```\n\nThis response includes all the required details from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West region."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.6666666666666666,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.3636363636363636,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"1st week of April to 3rd week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10-13 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"12-18 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of November to 2nd week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue monitoring crops; potential need for supplementary water or fertilizers.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand; prepare for harvest based on local conditions.\",\n    \"cowpea\": \"Monitor for pest infestations; ensure proper storage practices.\"\n  },\n  \"message_en\": \"Early dry spells may occur during the 1st week of April to the 3rd week of April. Monitor your crops closely and consider irrigation if necessary. Late dry spells will last from the 1st week of November to the 2nd week of November. Cessation is expected between the 1st week of November and the 2nd week of November. Monitor soil moisture, maintain good soil health, and be prepared for harvesting based on local conditions. For more information, contact your local extension officer.\"\n}\n```\n\nThis response includes all the required fields and accurately reflects the GMet forecast for the Upper West region. The message is concise yet informative, providing specific advice tailored to different crops while also offering general guidance on farming practices."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.3333333333333333,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.1111111111111111,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"9 to 16\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"13 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue regular planting and maintenance practices.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest or replant based on market demand and weather conditions.\",\n    \"cowpea\": \"Monitor for pest infestations; ensure proper storage.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of dry spells from mid-April through May. Monitor soil moisture levels and prepare for potential water shortages. Maize growers should focus on maintaining soil health and monitoring for pests. Groundnut harvest is advised if prices rise. Consider irrigation options during dry spells. For more detailed information, consult local agricultural extension services.\"\n}\n```"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.18326693227091634,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": \"2026\",\n    \"onset_window\": \"2nd week of May - 1st week of June\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"13-20\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"16-21\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"1st week of October - 2nd week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for next planting cycle.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In the upcoming season, expect moderate rainfall from mid-May through mid-October. Monitor your crops for signs of drought stress. Continue monitoring soil moisture levels and adjust your farming practices accordingly. Stay tuned for more detailed information on your specific needs.\"\n}\n```\n\nThis response provides a comprehensive summary of the GMet seasonal forecast for the Upper West region, tailored specifically to the needs of farmers in Ghana. The JSON structure includes all key elements requested, ensuring clarity and relevance to the agricultural context."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.202020202020202,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"1st week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10-12 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"16-18 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue planting or replanting based on local conditions.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n  },\n  \"message_en\": \"Early rains expected from April to June. Monitor soil moisture closely. Consider irrigation if needed. Late dry spell expected from September to October. Harvest existing crops; prepare fields for new planting. Monitor pests and diseases during sowings/transplanting.\"\n}\n```\n\nThis response includes all the required information from the forecast and provides tailored advice for different crops while keeping the message concise and relevant to farmers' needs."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.3333333333333333,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.1566265060240964,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 13\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"12 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of November\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry conditions persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry spells.\",\n    \"groundnut\": \"Monitor pod set and maturity; harvest when pods reach full size.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for disease outbreaks.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture levels closely. Early dry spell periods may last from 10 to 13 weeks, but do not worry as they will end around mid-May. Maize growers should continue regular watering and maintain fields free of pests and diseases. Millet producers should focus on maintaining their crops' health through proper tillage. Sorghum farmers should ensure their soils remain healthy without excessive tilling during dry spells. Groundnuts should be harvested once pods reach full size. Cowpea growers should continue planting or transplanting while monitoring for potential diseases.\"\n}\n```"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.23809523809523814,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"3rd week of April to 2nd week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"7 to 11\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"15 to 22\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"4th week of October to 1st week of November\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In 2026, Upper West region will experience a typical dry spell period from mid-April to early June. Monitor your crops regularly and adjust planting schedules accordingly. For more detailed information, please consult your local agricultural extension officer.\"\n}\n```\n\nThis response includes all the required details from the GMet forecast and provides specific advice tailored to Upper West farmers' needs during this critical time frame. The message is concise yet informative, ensuring that farmers receive clear guidance on their farming practices."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": false,
+      "rougeL": 0.22695035460992907,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"2nd week of May to 1st week of June\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"9-11 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15-21 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue planting or replanting based on local conditions.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for disease outbreaks.\"\n  },\n  \"message_en\": \"Early rains expected from mid-May to early June. Monitor soil moisture closely. Consider irrigation if needed. Early dry spells of 9-11 days are forecast. Late dry spells will last 15-21 days. Cessation expected between Oct 2nd to Oct 3rd. Monitor soil moisture closely. Continue planting or replanting based on local conditions. Maintain good soil health. Harvest existing crops. Prepare fields for new planting. Monitor for pest/disease issues. Continue sowing/transplanting. Monitor for disease outbreaks.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.16666666666666666,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.21428571428571427,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7 to 10\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": null,\n  \"late_dry_spell_category\": null,\n  \"cessation_window\": \"1st week of October to 4th week of September\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry conditions persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry spells.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and water management.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for disease outbreaks.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture levels closely. Early dry spell periods range from 7 to 10 weeks, which may require caution but do not exceed short-term thresholds. The first dry spell is expected around mid-May. Cessation of rains will occur between October and November. Continue monitoring crops and maintain best agricultural practices. Stay informed about local weather trends for timely decisions.\"\n}\n```\n\nThis response includes all necessary information based on the GMet seasonal forecast provided, ensuring that each key element is accurately represented in the JSON structure."
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.19491525423728812,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": \"2026\",\n    \"onset_window\": \"2nd week of May - 1st week of June\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"13-17\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"13-18\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"3rd week of October - 4th week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for next planting cycle.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In the upcoming season, expect moderate rainfall from mid-May through mid-October. Monitor your crops for signs of drought stress. Continue monitoring soil moisture levels and adjust your farming practices accordingly. Stay tuned for further updates.\"\n}\n```\n\nThis response includes all the necessary information from the forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West region."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": false,
+      "rougeL": 0.1818181818181818,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"2nd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7-14 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"12-19 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue planting or replanting based on local conditions.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n  },\n  \"message_en\": \"Early rains expected from mid-April to early-May. Monitor soil moisture closely. Consider irrigation if needed. Early dry spells of 7-14 days are normal but may require attention. Late dry spells of 12-19 days are expected. Cessation between Oct 1 and Oct 4 is normal. Monitor soil moisture and maintain good soil health. Continue planting or replanting based on local conditions. Harvest existing crops and prepare fields for new planting if necessary. Monitor for pests and diseases during sorghum cultivation. Continue sowing or transplanting cowpea; monitor for pest infestations.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides specific advice tailored to Upper West farmers' needs. The message is concise yet informative, ensuring it fits within the 320-character limit while covering essential points about monitoring, timing, and management strategies."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.096,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 12\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"16 to 20\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 4th week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry spells persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry periods.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and water management.\",\n    \"cowpea\": \"Continue seedling care; monitor for disease and pest issues.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture closely and prepare for potential dry spells. Consider irrigation if conditions remain dry. Continue regular farming practices but be prepared for longer dry spells later in the season. Crop actions include monitoring soil moisture, maintaining good soil health, avoiding excessive tillage, and continuing seedling care.\"\n}\n```"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.1991701244813278,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": \"2026\",\n    \"onset_window\": \"4th week of April - 3rd week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"7-13\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"11-16\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"4th week of October - 1st week of November\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest or prepare fields for next cropping season.\",\n      \"cowpea\": \"Continue sowing or transplanting if weather permits.\"\n    },\n    \"message_en\": \"In the upcoming season, expect moderate rainfall from mid-April through October. Monitor your crops for signs of drought stress. Maintain soil moisture levels and consider irrigation if necessary. Closely watch for pest and disease issues during this period. For more detailed information, please consult local agricultural extension services.\"\n}\n```\n\nThis response includes all the required details from the GMet forecast, providing specific advice tailored to Upper West farmers' needs while adhering strictly to the provided data points."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": false,
+      "rougeL": 0.18439716312056736,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of May to 1st week of June\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10-12 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15-17 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue planting or replanting based on local conditions.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n  },\n  \"message_en\": \"Early rains expected from mid-May to early June. Monitor soil moisture closely. Consider irrigation if needed. Early dry spells of 10-12 days are forecast. Late dry spells will last 15-17 days. Cessation expected between Oct 1st and Oct 2nd. Monitor soil moisture closely. Continue planting or replanting based on local conditions. Maintain good soil health. Harvest existing crops; prepare fields for new planting if necessary. Continue sowing or transplanting; monitor for pest infestations.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides specific advice tailored to Upper West farmers' needs during the growing season. The message is concise yet informative, ensuring it fits within the 320-character limit while covering key points about monitoring, timing, and management strategies."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.3333333333333333,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.19310344827586204,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"9 to 12\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"13 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue regular planting and maintenance practices.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand before harvesting; ensure proper storage methods.\",\n    \"cowpea\": \"Monitor weather conditions; prepare for potential dry spells.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture levels and consider irrigation if necessary. Early dry spell period is expected between 9 to 12 weeks after onset. The second dry spell will occur between 13 to 15 weeks post-onset. Cessation of rains is anticipated around October. Continue regular farming practices but be prepared for potential dry spells during this period. Crop yields may vary based on local market demands and storage methods.\"\n}\n```"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.20717131474103584,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"1st week of April to 4th week of April\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"7-10 days\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"10-15 days\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"4th week of October to 1st week of November\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In 2026, Upper West region will experience a typical dry spell period from mid-April to early October. Monitor your crops regularly and adjust planting schedules accordingly. For more detailed information, please consult your local agricultural extension officer.\"\n}\n```\n\nThis response includes all the required details from the GMet forecast and provides specific advice tailored to Upper West farmers' needs during this critical time frame. The message is concise yet informative, ensuring that farmers receive clear guidance on their farming practices."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": false,
+      "rougeL": 0.22556390977443608,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"4th week of April to 4th week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"8-11 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"11-16 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue monitoring crops; potential need for supplementary water or fertilizers.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand; prepare for harvest based on local conditions.\",\n    \"cowpea\": \"Monitor for pod maturity; ensure timely harvesting.\"\n  },\n  \"message_en\": \"Early rains expected from mid-April to mid-May. Monitor soil moisture closely. Consider irrigation if needed. Early dry spells of 8-11 days are forecast. Late dry spells will last 11-16 days. Cessation expected between Oct 3rd to Oct 4th. Monitor crops for pests and diseases. Assess market demand for cowpea. Monitor soil moisture closely for maize, millet, sorghum, and groundnuts. Prepare for harvest based on local conditions.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.10852713178294573,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 15\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"14 to 21\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 2nd week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry spells persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry periods.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and water management.\",\n    \"cowpea\": \"Continue seedling care; monitor for disease and pest issues.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture closely and prepare for potential dry spells. Consider irrigation if dry conditions persist. Continue regular farming practices but be prepared for longer dry spells later in the year. Crop actions include monitoring soil moisture, maintaining good soil health, avoiding excessive tillage, and continuing seedling care for cowpea.\"\n}\n```"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.1702127659574468,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": \"2026\",\n    \"onset_window\": \"3rd week of April - 1st week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"10 to 13\",\n    \"early_dry_spell_category\": \"short\",\n    \"late_dry_spell_days\": \"15 to 18\",\n    \"late_dry_spell_category\": \"long\",\n    \"cessation_window\": \"1st week of October - 4th week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for next planting cycle.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In the upcoming season, expect a longer growing period from mid-May to mid-October. Monitor your crops regularly and adjust your farming practices accordingly. Stay tuned for more detailed information about your specific needs.\"\n}\n```\n\nThis response includes all the required details from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West region."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": false,
+      "rougeL": 0.20289855072463767,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"9 to 12\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"13 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of November to 2nd week of November\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue regular planting practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good field management practices; look out for drought stress signs.\",\n    \"groundnut\": \"Assess market demand; harvest or replant based on local conditions.\",\n    \"cowpea\": \"Monitor seedling health; ensure proper spacing and consistent watering.\"\n  },\n  \"message_en\": \"Early rains expected from mid-April to mid-May. Monitor soil moisture closely. Consider irrigation if needed. Early dry spells of 9-12 days are normal. Late dry spells will last 13-16 days. Cessation expected between Nov 1st and Nov 2nd. Monitor soil moisture closely. Continue regular planting practices. Look out for pests and diseases. Assess market demand. Harvest or replant based on local conditions. Monitor seedlings. Ensure proper spacing and consistent watering.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.13138686131386862,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 12\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"14 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue regular planting and maintenance practices.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand before harvesting; ensure proper storage methods.\",\n    \"cowpea\": \"Monitor weather conditions; prepare for potential dry spells.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset dates around mid-April. The first dry spell is anticipated between April and May, lasting from 10 to 12 weeks. Monitor your crops during this period and be prepared for short-term dry spells. For longer periods, focus on maintaining soil health and managing pests. Also, keep an eye out for any changes in weather patterns and adjust your farming practices accordingly. Stay tuned for more updates!\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops based on the expected dry spell duration. The message is designed to inform farmers about their upcoming challenges while offering practical solutions to manage them effectively."
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.19148936170212766,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"3rd week of April to 1st week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"9-12\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"14-20\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"3rd week of October to 4th week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for next planting cycle.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"Farmers in the Upper West region should expect a normal onset period from mid-April to early-May. The first dry spell is expected to last between 9-12 days, while the second dry spell could last up to 14-20 days. Cessation will occur around mid-October, lasting approximately 4 weeks. Monitor your crops regularly and adjust your farming practices accordingly. Stay tuned for more detailed information.\"\n}\n```\n\nThis JSON object provides the required details for Upper West farmers regarding their growing seasons, dry spells, and cessation periods, along with specific advice tailored to different crops. The message is designed to be concise yet informative, ensuring it fits within the 320-character limit."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.8,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.37241379310344824,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"2nd week of April to 2nd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"12-17 days\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"10-12 days\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue monitoring crops; potential need for supplementary water or fertilizers.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand; prepare for harvest based on local conditions.\",\n    \"cowpea\": \"Monitor for pest infestations; ensure proper storage practices.\"\n  },\n  \"message_en\": \"Early dry spells may occur during the 2nd week of April to the 2nd week of May. Monitor your crops regularly. Consider irrigation if necessary. Late dry spells will last approximately 10-12 days. Cessation is expected between the 4th week of September to the 1st week of October. Continue monitoring your crops and maintain good soil health. Monitor for pests and diseases in sorghum. Assess market demand for groundnuts and prepare for harvest accordingly. Monitor cowpea for pest infestations and store properly.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.14285714285714285,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.11199999999999999,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"<10\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \">10\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry.\",\n    \"millet\": \"Continue planting or replanting based on local conditions.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest when fully mature; avoid overharvesting.\",\n    \"cowpea\": \"Plant new seeds; ensure proper spacing and water.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture closely and consider irrigation if needed. Maize growers should continue planting or replanting according to local conditions. Sorghum producers should maintain soil health and monitor for pests and diseases. Groundnut harvest is imminent; avoid overharvesting. Cowpea growers should plant new seeds ensuring proper spacing and adequate watering.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant to the context of the forecast."
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.1992337164750958,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"3rd week of April to 1st week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"7 to 10\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"14 to 20\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"4th week of September to 1st week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue planting or replanting based on local conditions.\",\n      \"sorghum\": \"Maintain current planting schedule; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n      \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n    },\n    \"message_en\": \"In the upcoming season, expect moderate rainfall from mid-June through mid-October. Monitor your crops for signs of drought stress. Maintain regular watering practices during dry spells. For more detailed information, consult local weather advisories and seek expert advice.\"\n}\n```\n\nThis response provides a comprehensive summary of the GMet forecast for the Upper West region, including specific details about the onset and cessation windows, dry spell periods, and recommended crop management actions. The message is designed to be concise yet informative, ensuring that farmers receive clear guidance tailored to their needs."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.25,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.4098360655737705,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"2nd week to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"11-14 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"13-19 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"2nd week to 3rd week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue monitoring crops; potential need for supplementary water or fertilizers.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Assess market demand; prepare for harvest based on local conditions.\",\n    \"cowpea\": \"Monitor for pest infestations; ensure proper storage practices.\"\n  },\n  \"message_en\": \"Early dry spells may occur during the 2nd week of April to the 4th week of April. Monitor your crops regularly. Consider irrigation if necessary. For long-term planning, expect a short but intense period of drought from the 2nd week of October to the 3rd week of October. Stay informed about local weather patterns and adjust your farming practices accordingly.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.12213740458015268,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 14\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15 to 21\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"1st week of October to 4th week of September\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if dry spells persist.\",\n    \"millet\": \"Continue regular planting and maintenance practices; monitor for pests and diseases.\",\n    \"sorghum\": \"Maintain good soil health; avoid excessive tillage during dry periods.\",\n    \"groundnut\": \"Monitor pod set; ensure proper fertilization and water management.\",\n    \"cowpea\": \"Continue seedling care; monitor for disease and pest issues.\"\n  },\n  \"message_en\": \"Farmers in Upper West region should expect early onset of rains from mid-April. Monitor soil moisture closely and prepare for potential dry spells. Consider irrigation if conditions remain dry. Continue regular farming practices but be vigilant against pests and diseases. Monitor your crops for pod set in groundnuts and maintain healthy seedlings for cowpeas. Early cessation is expected around October, so manage your fields accordingly.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for Upper West farmers based on the seasonal and drought predictions. The message is concise yet informative, ensuring it fits within the 320-character limit while covering key points about monitoring, managing risks, and preparing for different phases of the growing season."
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": false,
+      "nfc": 0.0,
+      "guard_pass": false,
+      "sms_ok": false,
+      "rougeL": 0.18726591760299624,
+      "generation": "```json\n{\n  \"season\": {\n    \"year\": 2026,\n    \"onset_window\": \"1st week of May to 4th week of May\",\n    \"onset_category\": \"normal\",\n    \"early_dry_spell_days\": \"7-11\",\n    \"early_dry_spell_category\": \"normal\",\n    \"late_dry_spell_days\": \"12-15\",\n    \"late_dry_spell_category\": \"normal\",\n    \"cessation_window\": \"1st week of October to 2nd week of October\",\n    \"cessation_category\": \"normal\",\n    \"crop_actions\": {\n      \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n      \"millet\": \"Continue regular planting and maintenance practices.\",\n      \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n      \"groundnut\": \"Harvest or replant based on market demand and weather conditions.\",\n      \"cowpea\": \"Consider intercropping or relay cropping to manage drought stress.\"\n    },\n    \"message_en\": \"In the upcoming season, expect a moderate to heavy rainfall during JJA months. Monitor your crops' water needs and prepare for potential dry spells. Closely follow local weather forecasts and adjust your farming practices accordingly. Stay tuned for more detailed information tailored to your specific region.\"\n}\n```\n\nThis response provides a comprehensive summary of the GMet seasonal forecast for the Upper West Region of Ghana, including the onset and cessation windows, dry spell periods, and recommended crop actions. The message is designed to be concise yet informative, ensuring that farmers can make informed decisions about their agricultural activities."
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": false,
+      "rougeL": 0.22058823529411764,
+      "generation": "```json\n{\n  \"season\": \"2026\",\n  \"onset_window\": \"1st week of April to 3rd week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7-13 days\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15-22 days\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Monitor soil moisture closely; consider irrigation if needed.\",\n    \"millet\": \"Continue planting or replanting based on local conditions.\",\n    \"sorghum\": \"Maintain good soil health; monitor for pests and diseases.\",\n    \"groundnut\": \"Harvest existing crops; prepare fields for new planting if necessary.\",\n    \"cowpea\": \"Continue sowing or transplanting; monitor for pest infestations.\"\n  },\n  \"message_en\": \"Early rains expected from April 1st to April 3rd. Monitor soil moisture closely. Consider irrigation if needed. Early dry spells of 7-13 days are normal. Late dry spells will last 15-22 days. Cessation expected between Oct 2nd and Oct 3rd. Continue planting or replanting based on local conditions. Monitor soil health and pests. Harvest existing crops; prepare fields for new planting if necessary. Continue sowing or transplanting; monitor for pest infestations.\"\n}\n```\n\nThis response includes all the required information from the GMet forecast and provides tailored advice for different crops while keeping the message concise and relevant for farmers in the Upper West Region."
+    }
+  ],
+  "config": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter": null,
+    "split": "test",
+    "limit": 0
+  }
+}

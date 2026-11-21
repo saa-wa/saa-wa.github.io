@@ -1,0 +1,12 @@
+﻿key,english,dagaare,translator,reviewer,status,notes
+header,[Saa Wa? {season}],[Saa Wa? {season}],,,drafted (needs native review),
+onset,GMet expects the rains to start from the {onset_start} to the {onset_end}.,GMet tɛgɛɛ la ka saa na piili la {onset_start} gaa tɔ {onset_end}.,,,drafted (needs native review),
+onset_late,"GMet expects the rains to start from the {onset_start} to the {onset_end}, later than usual.","GMet tɛgɛɛ la ka saa na piili la {onset_start} gaa tɔ {onset_end}, e ŋmaa gaŋ lɛ naŋ maŋ e.",,,drafted (needs native review),
+onset_early,"GMet expects the rains to start from the {onset_start} to the {onset_end}, earlier than usual.","GMet tɛgɛɛ la ka saa na piili la {onset_start} gaa tɔ {onset_end}, pɔge gaŋ lɛ naŋ maŋ e.",,,drafted (needs native review),
+dry,"A dry spell of {dry_days} days may follow, so do not plant on the first rains.","Wuloo/yooroo naŋ e {dry_days} bebiri na baŋ tu la, ka fo da kɔɔ a saa dɛŋdɛŋ.",,,drafted (needs native review),
+end,Rains should end from the {cess_start} to the {cess_end}.,Saa na baare la {cess_start} gaa tɔ {cess_end}.,,,drafted (needs native review),
+seed,Use early-maturing seed.,De bondirii-biri naŋ wɛrɛ gɛrɛ.,,,drafted (needs native review),
+wait,Wait for steady rains before sowing.,Guuli ka saa sigi velaa ka fo wa kɔɔ.,,,drafted (needs native review),
+ask,Ask your extension officer.,Bɔɔ fo karema/wuliraa naŋ kaa toma.,,,drafted (needs native review),
+week,{ordinal} week of {month},{ordinal} bakyɛlloo {month} poɔ,,,drafted (needs native review),
+range,{lo} to {hi},{lo} gaa tɔ {hi},,,drafted (needs native review),

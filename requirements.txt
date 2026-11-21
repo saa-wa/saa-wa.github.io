@@ -1,0 +1,18 @@
+# Core pipeline, extractor, app and tests
+pdfplumber>=0.11
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+rouge-score>=0.1.2
+sacrebleu>=2.4
+pytest>=8.0
+
+# Model training and inference (install torch for your CUDA version first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124 )
+torch>=2.5
+transformers>=4.50
+peft>=0.13
+accelerate>=1.0
+bitsandbytes>=0.45
+datasets>=3.0
+sentencepiece>=0.2

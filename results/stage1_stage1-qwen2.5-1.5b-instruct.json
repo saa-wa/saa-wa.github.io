@@ -1,0 +1,424 @@
+{
+  "summary": {
+    "table": {
+      "n": 13,
+      "valid_json": 1,
+      "mean_nfc": 1.0,
+      "guard_pass_rate": 1,
+      "sms_within_320": 1,
+      "rougeL": 0.9521423595574178
+    },
+    "all": {
+      "n": 38,
+      "valid_json": 1,
+      "mean_nfc": 0.968421052631579,
+      "guard_pass_rate": 0.9210526315789473,
+      "sms_within_320": 1,
+      "rougeL": 0.9322104701178443
+    },
+    "narrative": {
+      "n": 13,
+      "valid_json": 1,
+      "mean_nfc": 1.0,
+      "guard_pass_rate": 1,
+      "sms_within_320": 1,
+      "rougeL": 0.9273350876924624
+    },
+    "raw_pdf": {
+      "n": 12,
+      "valid_json": 1,
+      "mean_nfc": 0.9,
+      "guard_pass_rate": 0.75,
+      "sms_within_320": 1,
+      "rougeL": 0.9158992541858035
+    }
+  },
+  "details": [
+    {
+      "style": "table",
+      "origin": "real",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8852459016393444,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"10 to 14\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"13 to 17\",\n  \"late_dry_spell_category\": \"short\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 10 to 14 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "real",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8852459016393444,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"10 to 14\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"13 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 10 to 14 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "real",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8852459016393444,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"10 to 14\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"13 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 10 to 14 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"8 to 13\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"10 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of April to the 4th week of April, earlier than usual. A dry spell of 8 to 13 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.9193548387096775,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 3rd week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 17\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"12 to 19\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 3rd week of April, earlier than usual. A dry spell of 10 to 17 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.6,
+      "guard_pass": false,
+      "sms_ok": true,
+      "rougeL": 0.8870967741935485,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"9 to 12\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"11 to 18\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 1st week of May, earlier than usual. A dry spell of 9 to 12 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"7 to 11\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15 to 22\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of May to the 1st week of June, later than usual. A dry spell of 7 to 11 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"4th week of April to 3rd week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"10 to 13\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"10 to 12\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 4th week of April to the 3rd week of May, later than usual. A dry spell of 10 to 13 days may follow, so do not plant on the first rains. Rains should end from the 2nd week of October to the 3rd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.9193548387096775,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"9 to 14\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"10 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 4th week of April, earlier than usual. A dry spell of 9 to 14 days may follow, so do not plant on the first rains. Rains should end from the 4th week of September to the 1st week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"9 to 13\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"16 to 21\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of May to the 1st week of June, later than usual. A dry spell of 9 to 13 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.9193548387096775,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 3rd week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"10 to 13\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"12 to 18\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of November to 2nd week of November\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 3rd week of April, earlier than usual. A dry spell of 10 to 13 days may follow, so do not plant on the first rains. Rains should end from the 1st week of November to the 2nd week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"4th week of April to 2nd week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"9 to 16\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"13 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 4th week of April to the 2nd week of May, later than usual. A dry spell of 9 to 16 days may follow, so do not plant on the first rains. Rains should end from the 2nd week of October to the 3rd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"13 to 20\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"16 to 21\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of May to the 1st week of June, later than usual. A dry spell of 13 to 20 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8925619834710743,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 4th week of April\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"10 to 12\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"16 to 18\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 4th week of April. A dry spell of 10 to 12 days may follow, so do not plant on the first rains. Rains should end from the 4th week of September to the 1st week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.6,
+      "guard_pass": false,
+      "sms_ok": true,
+      "rougeL": 0.9291338582677166,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7 to 13\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"12 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of November to 2nd week of December\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 1st week of May, earlier than usual. A dry spell of 7 to 13 days may follow, so do not plant on the first rains. Rains should end from the 1st week of November to the 2nd week of December. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.967741935483871,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"7 to 11\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"15 to 22\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 7 to 11 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"9 to 11\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"15 to 21\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of May to the 1st week of June, later than usual. A dry spell of 9 to 11 days may follow, so do not plant on the first rains. Rains should end from the 2nd week of October to the 3rd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of May to 3rd week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"7 to 10\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"10 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of May to the 3rd week of June, later than usual. A dry spell of 7 to 10 days may follow, so do not plant on the first rains. Rains should end from the 4th week of September to the 1st week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"13 to 17\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"13 to 18\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of May to the 1st week of June, later than usual. A dry spell of 13 to 17 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8852459016393444,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of April to 1st week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"7 to 14\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"12 to 19\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of April to the 1st week of May. A dry spell of 7 to 14 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"8 to 12\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"16 to 20\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of May to the 1st week of June, later than usual. A dry spell of 8 to 12 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"4th week of April to 3rd week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"7 to 13\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"11 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 4th week of April to the 3rd week of May, later than usual. A dry spell of 7 to 13 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"10 to 12\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"15 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of May to the 1st week of June, later than usual. A dry spell of 10 to 12 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"4th week of April to 4th week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"9 to 12\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"13 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 4th week of April to the 4th week of May, later than usual. A dry spell of 9 to 12 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7 to 10\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"10 to 15\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of October to 1st week of November\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 4th week of April, earlier than usual. A dry spell of 7 to 10 days may follow, so do not plant on the first rains. Rains should end from the 4th week of October to the 1st week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"4th week of April to 4th week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"8 to 11\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"11 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 4th week of April to the 4th week of May, later than usual. A dry spell of 8 to 11 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 0.6,
+      "guard_pass": false,
+      "sms_ok": true,
+      "rougeL": 0.8750000000000001,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"4th week of April to 4th week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"8 to 15\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"14 to 21\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of November to 2nd week of December\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 4th week of April to the 4th week of May, later than usual. A dry spell of 8 to 15 days may follow, so do not plant on the first rains. Rains should end from the 1st week of November to the 2nd week of December. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of May to 1st week of June\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"9 to 13\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"14 to 18\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of May to the 1st week of June, later than usual. A dry spell of 9 to 13 days may follow, so do not plant on the first rains. Rains should end from the 2nd week of October to the 3rd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.967741935483871,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"9 to 12\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"13 to 16\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of November to 2nd week of November\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 2nd week of May. A dry spell of 9 to 12 days may follow, so do not plant on the first rains. Rains should end from the 1st week of November to the 2nd week of November. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.9193548387096775,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"8 to 12\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"14 to 17\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of April to the 4th week of April, earlier than usual. A dry spell of 8 to 12 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.967741935483871,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"9 to 12\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"14 to 20\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"3rd week of October to 4th week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 1st week of May. A dry spell of 9 to 12 days may follow, so do not plant on the first rains. Rains should end from the 3rd week of October to the 4th week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8852459016393444,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of April to 2nd week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"12 to 17\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"10 to 12\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of April to the 2nd week of May. A dry spell of 12 to 17 days may follow, so do not plant on the first rains. Rains should end from the 4th week of September to the 1st week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.9193548387096775,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"13 to 18\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"12 to 14\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 4th week of April, earlier than usual. A dry spell of 13 to 18 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8852459016393444,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 1st week of May\",\n  \"onset_category\": \"normal\",\n  \"early_dry_spell_days\": \"7 to 10\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"14 to 20\",\n  \"late_dry_spell_category\": \"long\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"late\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 1st week of May. A dry spell of 7 to 10 days may follow, so do not plant on the first rains. Rains should end from the 4th week of September to the 1st week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.9193548387096775,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"2nd week of April to 4th week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"11 to 14\",\n  \"early_dry_spell_category\": \"long\",\n  \"late_dry_spell_days\": \"13 to 19\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 2nd week of April to the 4th week of April, earlier than usual. A dry spell of 11 to 14 days may follow, so do not plant on the first rains. Rains should end from the 2nd week of October to the 3rd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "raw_pdf",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.8750000000000001,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"3rd week of April to 3rd week of May\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7 to 14\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"14 to 21\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"4th week of September to 1st week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 3rd week of April to the 3rd week of May, earlier than usual. A dry spell of 7 to 14 days may follow, so do not plant on the first rains. Rains should end from the 4th week of September to the 1st week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "table",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 0.890625,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of May to 4th week of May\",\n  \"onset_category\": \"late\",\n  \"early_dry_spell_days\": \"7 to 11\",\n  \"early_dry_spell_category\": \"short\",\n  \"late_dry_spell_days\": \"12 to 15\",\n  \"late_dry_spell_category\": \"short\",\n  \"cessation_window\": \"1st week of October to 2nd week of October\",\n  \"cessation_category\": \"early\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of May to the 4th week of May, later than usual. A dry spell of 7 to 11 days may follow, so do not plant on the first rains. Rains should end from the 1st week of October to the 2nd week of October. Wait for steady rains before sowing.\"\n}"
+    },
+    {
+      "style": "narrative",
+      "origin": "counterfactual",
+      "valid_json": true,
+      "nfc": 1.0,
+      "guard_pass": true,
+      "sms_ok": true,
+      "rougeL": 1.0,
+      "generation": "{\n  \"season\": 2026,\n  \"onset_window\": \"1st week of April to 3rd week of April\",\n  \"onset_category\": \"early\",\n  \"early_dry_spell_days\": \"7 to 13\",\n  \"early_dry_spell_category\": \"normal\",\n  \"late_dry_spell_days\": \"15 to 22\",\n  \"late_dry_spell_category\": \"normal\",\n  \"cessation_window\": \"2nd week of October to 3rd week of October\",\n  \"cessation_category\": \"normal\",\n  \"crop_actions\": {\n    \"maize\": \"Maize suffers most in a dry spell, so sow it only after the rains are steady.\",\n    \"millet\": \"Millet copes with dry spells better than maize.\",\n    \"sorghum\": \"Sorghum copes with dry spells better than maize.\",\n    \"groundnut\": \"Use an early-maturing groundnut variety.\",\n    \"cowpea\": \"Use an early-maturing cowpea variety.\"\n  },\n  \"message_en\": \"[Saa Wa? 2026] GMet expects the rains to start from the 1st week of April to the 3rd week of April, earlier than usual. A dry spell of 7 to 13 days may follow, so do not plant on the first rains. Rains should end from the 2nd week of October to the 3rd week of October. Wait for steady rains before sowing.\"\n}"
+    }
+  ],
+  "config": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter": "models/stage1-qwen2.5-1.5b-instruct",
+    "split": "test",
+    "limit": 0
+  }
+}
